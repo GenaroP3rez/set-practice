@@ -21,9 +21,12 @@ public class CommonElementsFinder {
        Set <Integer> commonElements = new HashSet<>();
 
        for (int number : array2){
-        if (firstArray)
+        if (firstArrayValues.contains(number)){
+            commonElements.add(number);
+        }
        }
-
+       return commonElements;
+       
     }
 
 
