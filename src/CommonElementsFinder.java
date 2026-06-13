@@ -15,7 +15,15 @@ public class CommonElementsFinder {
      */
     public static Set<Integer> findCommonElements(int[] array1, int[] array2) {
         // TODO
-        return null;
+       // return null;
+
+       Set<Integer> firstArrayValues = new HashSet<>();
+       Set <Integer> commonElements = new HashSet<>();
+
+       for (int number : array2){
+        if (firstArray)
+       }
+
     }
 
 
