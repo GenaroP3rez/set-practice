@@ -15,7 +15,13 @@ public class DuplicateRemover {
      */
     public static List<String> sortAndRemoveDuplicates(String[] words) {
         // TODO
-        return null;
+       // return null;
+       Set<String> uniqueWords = new TreeSet<>();
+
+       for (String word : words){
+        uniqueWords.add(words);
+        return new ArrayList<>(uniqueWords);
+       }
     }
 
     public static void main(String[] args) {
